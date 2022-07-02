@@ -182,7 +182,7 @@ h2 {
 
 
 footer {
-    background-image: url('starter-code/assets/desktop/image-footer.jpg');
+    background-image: url('../assets/desktop/image-footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -281,7 +281,7 @@ header h1 {
 }
 
     footer {
-        background-image: url('/starter-code/assets/tablet/image-footer.jpg');
+        background-image: url('../assets/tablet/image-footer.jpg');
         background-repeat: no-repeat;
         height: 500px;
     }
@@ -396,7 +396,7 @@ header p {
     }
 
     footer {
-        background-image: url('/starter-code/assets/mobile/image-footer.jpg');
+        background-image: url('../assets/mobile/image-footer.jpg');
         background-repeat: no-repeat;
     }
 
