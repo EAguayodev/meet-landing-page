@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./main.css">
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  <header>
-   <div class="container">
-      <div class="row">
-        <div>
-          <img class="hero-left" src="./assets/desktop/image-hero-left.png" alt="">
-        </div>
-        <div>
-           <img class="logo" src="/starter-code/assets/logo.svg" alt="">
-          <h1>
-            Group Chat <br> for Everyone
-          </h1>
-          <p>
-          Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
-          </p>
-          <button class="btn btn-default-1">
-            Download v1.3
-          </button>
-          <button class="btn btn-default-2">
-            What is it?
-          </button>
-         
-        </div>
-        <div>
-          <img class="hero-right" src="./assets/desktop/image-hero-right.png" alt="">
-        </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="./main.css">
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <!-- ============ start header ============== -->
+    <header>
+      <!-- start container -->
+      <div class="container">
+        <!-- start row -->
+        <div class="row">
+          <!-- hero left box -->
+          <div>
+            <img class="hero-left" src="assets/desktop/image-hero-left.png" alt="hero loeft">
+          </div>
+          <!-- hero left box -->
+          <!-- logo and heading -->
+          <div>
+            <img class="logo" src="assets/logo.svg" alt="logo">
+            <h1>
+              Group Chat <br> for Everyone
+            </h1>
+            <p>
+              Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+            </p>
+            <button class="btn btn-default-1">
+              Download v1.3
+            </button>
+            <button class="btn btn-default-2">
+              What is it?
+            </button>
 
+          </div>
+          <!-- logo and heading -->
+          <!-- start right box -->
+          <div>
+            <img class="hero-right" src="assets/desktop/image-hero-right.png" alt="hero right">
+          </div>
+          <!-- end right box -->
+        </div>
+        <!-- end row -->
       </div>
-      
-    </div>
- <div class="circle circle-1">
-     <p>01</p>
-  </div>
-  </header>
-  
-  
-  <div class="container-grid">
-    
+      <!-- end container -->
+      <div class="circle circle-1">
+        <p>01</p>
+      </div>
+    </header>
+    <!-- ============ end header ============== -->
+
+    <!-- ============ start grid section ============== -->
+    <div class="container-grid">
+      <!-- start row grid -->
       <div class="row-grid">
-         
+        <!-- box 1 -->
         <div>
           <img class="grid-img" src="./assets/desktop/image-woman-in-videocall.jpg" alt="women-in-voicecall">
         </div>
+        <!-- box 1 -->
+        <!-- box 2 -->
         <div>
           <img class="grid-img" src="./assets/desktop/image-women-videochatting.jpg" alt="women-videochatting">
         </div>
+        <!-- box 2 -->
+        <!-- box 3 -->
         <div>
           <img class="grid-img" src="./assets/desktop/image-men-in-meeting.jpg" alt="men-in-meeting">
         </div>
+        <!-- box 3 -->
+        <!-- box 4 -->
         <div>
           <img class="grid-img" src="./assets/desktop/image-man-texting.jpg" alt="man-texting">
         </div>
+        <!-- box 4 -->
       </div>
-
+      <!-- ============ start modern section ============== -->
       <div class="modern-container">
         <h3>
           Built for modern use
@@ -69,39 +86,48 @@
           Smarter meetings, all <br> in one place
         </h2>
         <p>
-          Send messages, share files, show your screen, and record <br> your meetings — all in one 
-          workspace. Control who can join with <br> invite-only team access, data encryption, and data export.
+          Send messages, share files, show your screen, and record your meetings — all in one
+          workspace. Control who can join with invite-only team access, data encryption, and data export.
         </p>
       </div>
+      <!-- ============ end modern section ============== -->
     </div>
-
-<div class="circle circle-2">
+<!-- ============ end grid section ============== -->
+    <div class="circle circle-2">
       <p>02</p>
-</div>
-   <footer>
-     
-     <div class="footer-container">
-      <div class="footer-row">
-         
-       <div>
-         <h2>
-          Experience more <br> together
-         </h2>
-       </div>
-       
-       <div>
-         
-        <p>
-          Stay connected with reliable HD meetings <br> and unlimited one-on-one and group <br> video sessions.
-        </p>
-       </div>
-       <div>
-        <button class="btn btn-default-footer">
-          Download v1.3
-        </button>
-       </div>
+    </div>
+    <!-- ============ start footer ============== -->
+    <footer>
+      <!-- start container footer -->
+      <div class="footer-container">
+        <!-- start row footer -->
+        <div class="footer-row">
+          <!-- footer left box -->
+          <div>
+            <h2>
+              Experience more <br> together
+            </h2>
+          </div>
+          <!--/ footer left box -->
+          <!-- footer box center -->
+          <div>
+            <p>
+              Stay connected with reliable HD meetings <br> and unlimited one-on-one and group <br> video sessions.
+            </p>
+          </div>
+          <!--/ footer box center -->
+          <!-- footer box right -->
+          <div>
+            <button class="btn btn-default-footer">
+              Download v1.3
+            </button>
+          </div>
+          <!--/ footer box right -->
+        </div>
+        <!-- start row footer -->
       </div>
-     </div>
-   </footer>
-</body>
+      <!-- end container footer -->
+    </footer>
+    <!-- ============ end footer ============== -->
+  </body>
 </html>
