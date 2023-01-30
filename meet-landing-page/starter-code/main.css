@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 
 
 * {
@@ -24,15 +24,25 @@
     border: none;
     padding: 15px;
     border-radius: 50px;
+    font-size: 16px;
+    font-family: var(--red-hat-font);
     cursor: pointer;
+    font-weight: 900;
 }
 
 .btn-default-1 {
     background-color: var(--hippie-blue);
     color: var(--alabaster);
-    font-family: var(--red-hat-font);
-    margin: 1rem 0 0 7rem;
-    width: 30%;
+    position: relative;
+    top: 132px;
+    left: 4rem;
+    width: 193px;
+}
+
+.d__span-1 {
+    color: var(--malibu);
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .btn-default-1:hover {
@@ -43,8 +53,10 @@
     background-color: var(--deluge);
     color: var(--alabaster);
     font-family: var(--red-hat-font);
-    margin: 1rem 0 0 0.5rem;
-    width: 25%;
+    width: 139px;
+    position: relative;
+    top: 132px;
+    left: 75px;
 }
 
 .btn-default-2:hover {
@@ -55,7 +67,7 @@
 h3 {
     color: var(--hippie-blue);
     font-family: var(--red-hat-font);
-    font-weight: 400;
+    font-weight: 900;
     font-size: 30px;
     text-align: center;
 }
@@ -69,7 +81,21 @@ h2 {
 }
 
 .logo {
-    margin: 2rem 0 2rem 10rem;
+    position: relative;
+    top: 70px;
+    left: 151px;
+}
+
+.hero-left {
+    position: relative;
+    top: 5rem;
+    right: 2rem;
+}
+
+.hero-right {
+    position: relative;
+    top: 8rem;
+    left: 2rem;
 }
 
 .container {
@@ -81,13 +107,21 @@ h2 {
 .container h1 {
     text-align: center;
     font-family: var(--red-hat-font);
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0 3rem 0 1rem;
+    position: relative;
+    top: 5rem;
 }
 
 .container p {
+    color: var(--manatee);
     text-align: center;
     font-family: var(--red-hat-font);
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    top: 6rem;
 }
 
 .row {
@@ -97,7 +131,7 @@ h2 {
 }
 
 .container-grid {
-    padding-top: 4rem;
+    padding-top: 15rem;
 }
 
 .grid-img {
@@ -109,7 +143,7 @@ h2 {
 
 /* number circles */
 .circle {
-    border: 1px solid var(--manatee);
+    border: 1px solid #87879D;
     border-radius: 100px;
     color: var(--manatee);
     width: 20px;
@@ -117,30 +151,40 @@ h2 {
     text-align: center;
     background-color: var(--alabaster);
     margin: 0 0 0 38rem;
+    opacity: 0.50;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #87879D;
+    height: 80px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
 }
 
 .circle-1 {
-    margin: 8rem 0 -3rem 38rem;
+    /* position: relative; */
+    top: 339px;
 }
 
 .circle-1::before {
     content: "";
     position: absolute;
-    border: 1px solid var(--manatee);
+    border: 1px solid #87879D;
     height: 80px;
-    top: 225px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    top: 339px;
     margin-top: 8rem;
 }
 
 .circle-2 {
     position: relative;
     margin: 8rem 0 -11rem 38rem;
+    z-index: 3;
 }
 
-.cirlce-2 p {
-    text-align: center;
-    margin-left: -3rem;
-}
 
 .circle-2::before {
     content: "";
@@ -166,12 +210,12 @@ h2 {
 
 .modern-container h2 {
     font-family: var(--red-hat-font);
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .modern-container h3 {
     font-family: var(--red-hat-font);
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .modern-container p {
@@ -211,25 +255,50 @@ footer {
     background-color: var(--deluge);
     color: var(--alabaster);
     margin: 6rem 6rem 0 -3rem;
-    width: 80%;
+    width: 193px;
+    height: 58px;
 }
 
 .btn-default-footer:hover {
     background-color: var(--mauve);
 }
 
-footer h2 {
+.footer-container h2 {
     color: var(--alabaster);
     font-family: var(--red-hat-font);
-    font-weight: 500;
-    margin: 6rem 4rem 0 0;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 44px;
+    width: 350px;
+    height: 88px;
+    z-index: 5;
+    left: 1rem;
+    top: 5rem;
+    position: relative;
+    /* margin: 0 -4rem 0 -4rem; */
 }
 
 footer p {
     color: var(--alabaster);
     font-family: var(--red-hat-font);
     font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
     margin: 6rem 4rem 0 0;
+    width: 350px;
+    height: 78px;
+    position: relative;
+}
+
+footer .f__span {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D9B8FF;
 }
 
 .footer-row {
@@ -238,7 +307,7 @@ footer p {
     justify-content: space-around;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 960px) {
     body {
         overflow-y: scroll;
         overflow-x: hidden;
@@ -281,6 +350,16 @@ footer p {
         margin: 1rem 4rem 0 0;
     }
 
+    .modern-container p {
+        color: var(--manatee);
+        font-family: var(--red-hat-font);
+        text-align: center;
+        line-height: 1.6em;
+        margin: 24px 5rem 0 20rem;
+        position: relative;
+        left: -8rem;
+    }
+
     .grid-img {
         margin: 0 0.50rem 0 1rem;
         width: 200px;
@@ -291,7 +370,8 @@ footer p {
     footer {
         background-image: url('assets/tablet/image-footer.jpg');
         background-repeat: no-repeat;
-        height: 500px;
+        width: 768px;
+        height: 428px;
     }
 
     .footer-container {
@@ -308,9 +388,18 @@ footer p {
     }
 
     footer h2 {
+        color: var(--alabaster);
         font-family: var(--red-hat-font);
-        margin-top: -1rem;
-        margin-bottom: 1rem;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 44px;
+        width: 350px;
+        height: 88px;
+        z-index: 5;
+        left: 1rem;
+        top: 0rem;
+        position: relative;
     }
 
     footer p {
@@ -327,39 +416,46 @@ footer p {
 
 @media (max-width: 768px) {
     body {
-        overflow-y: scroll;
-        overflow-x: hidden;
+        /* overflow-y: scroll;
+        overflow-x: hidden; */
     }
 
     .logo {
-        margin: 0 0 0 11rem;
+        position: relative;
+        left: 6rem;
     }
 
-    header h1 {
-        margin-top: 18rem;
-        margin-left: 1.5rem;
+    .container h1 {
+        margin: 18rem 1rem 0 -5rem;
         text-align: center;
         position: relative;
-        left: 3rem;
+        font-size: 40px;
+        line-height: 44px;
+        left: 6rem;
     }
 
-    header p {
+    .container p {
         margin-top: 2rem;
         margin-left: 0.5rem;
         margin-right: -5rem;
+        font-size: 16px;
         text-align: center;
         position: relative;
-        right: -1rem;
+        right: 0rem;
     }
 
     .hero-right {
+        position: relative;
         margin: 3rem 18rem 0 -4rem;
         height: 200px;
     }
 
     .hero-left {
-        margin: 2rem -8.5rem 0 16rem;
+        position: relative;
+        top: 9rem;
+        /* margin: 5rem -8.5rem 0 16rem; */
         height: 200px;
+        left: 16rem;
     }
 
     .circle {
@@ -367,17 +463,18 @@ footer p {
     }
 
     .circle-1 {
-        margin: 20rem 0 0 14.5rem;
+        margin: 20rem 0 0 13.5rem;
         height: 52px;
     }
 
     .circle-1 p {
-        margin-left: -0.4rem;
+        margin-left: 1rem;
         margin-top: 0.1rem;
+        text-align: center;
     }
 
     .circle-2 {
-        margin: 29rem 0 -11rem 13rem;
+        margin: 9rem 0 -11rem 13rem;
         position: relative;
     }
 
@@ -386,8 +483,8 @@ footer p {
         position: absolute;
         border: 1px solid var(--manatee);
         height: 70px;
-        top: 225px;
-        margin-top: 50.5rem;
+        top: 228px;
+        margin-top: 43.4rem;
     }
 
     .logo {
@@ -414,18 +511,31 @@ footer p {
         margin: 30px 0 0 20px;
     }
 
+    .modern-container p {
+        margin: 24px 9rem 0 -2rem;
+        position: relative;
+        left: 6rem
+    }
+
     footer {
         background-image: url('assets/mobile/image-footer.jpg');
         background-repeat: no-repeat;
+        width: 375px;
+        height: 428px;
     }
 
     footer h2 {
         text-align: center;
         font-family: var(--red-hat-font);
+        color: var(--alabaster);
+        position: relative;
+        top: -5rem;
     }
 
     footer p {
         text-align: center;
         font-family: var(--red-hat-font);
+        position: relative;
+        top: 4rem;
     }
 }
