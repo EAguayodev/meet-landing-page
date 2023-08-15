@@ -96,6 +96,7 @@
     margin: 0 3rem 0 1rem;
     position: relative;
     top: 5rem;
+    width: 445px;
 }
 
 .container p {
@@ -106,6 +107,7 @@
     font-size: 18px;
     position: relative;
     top: 6rem;
+    width: 540px
 }
 
 .row {
