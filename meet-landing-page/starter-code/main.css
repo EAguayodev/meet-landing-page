@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -308,7 +307,7 @@ footer .f__span {
     justify-content: space-around;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 820px) {
     body {
         overflow-y: scroll;
         overflow-x: hidden;
@@ -415,46 +414,41 @@ footer .f__span {
     }
 }
 
-@media (max-width: 768px) {
-    body {
-        /* overflow-y: scroll;
-        overflow-x: hidden; */
-    }
+@media (max-width: 600px) {
+.logo {
+    position: relative;
+    left: 6rem;
+}
 
-    .logo {
-        position: relative;
-        left: 6rem;
-    }
+.container h1 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    line-height: 44px;
+    left: 6rem;
+    top: 21rem;
+    width: 327px;
+}
 
-    .container h1 {
-        margin: 18rem 1rem 0 -5rem;
-        text-align: center;
-        position: relative;
-        font-size: 40px;
-        line-height: 44px;
-        left: 6rem;
-    }
-
-    .container p {
-        margin-top: 2rem;
-        margin-left: 0.5rem;
-        margin-right: -5rem;
-        font-size: 16px;
-        text-align: center;
-        position: relative;
-        right: 0rem;
-    }
+.container p {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 23rem;
+    left: 8rem;
+    width: 327px;
+}
 
     .hero-right {
         position: relative;
-        margin: 3rem 18rem 0 -4rem;
         height: 200px;
+        left: -8rem;
+        top: 10rem
     }
 
     .hero-left {
         position: relative;
         top: 9rem;
-        /* margin: 5rem -8.5rem 0 16rem; */
         height: 200px;
         left: 16rem;
     }
@@ -468,17 +462,6 @@ footer .f__span {
         height: 52px;
     }
 
-    .circle-1 p {
-        margin-left: 1rem;
-        margin-top: 0.1rem;
-        text-align: center;
-    }
-
-    .circle-2 {
-        margin: 9rem 0 -11rem 13rem;
-        position: relative;
-    }
-
     .circle-1::before {
         content: "";
         position: absolute;
@@ -488,19 +471,32 @@ footer .f__span {
         margin-top: 43.4rem;
     }
 
+    .circle-1 p {
+        margin-left: 1rem;
+        margin-top: 0.1rem;
+        text-align: center;
+    }
+
+    .circle-2 {
+        margin: 9rem 0 -11rem 11rem;
+        position: relative;
+    }
+
     .logo {
         margin: 0 0 0 6rem;
     }
 
 
     .btn-default-1 {
-        width: 70%;
-        margin: 2rem 0 0 6rem;
+        width: 193px;
+        position: relative;
+        top: 25rem;
     }
 
     .btn-default-2 {
-        width: 60%;
-        margin: 1rem 0 0 6.5rem;
+        width: 139px;
+        top: 26rem;
+        left: 8rem;
     }
 
     .row-grid {
@@ -508,14 +504,19 @@ footer .f__span {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .row-grid>div {
+    .row-grid > div {
         margin: 30px 0 0 20px;
     }
 
+    .modern-container h2{
+        font-size: 32px;
+        width: 327px;
+    }
+
     .modern-container p {
-        margin: 24px 9rem 0 -2rem;
         position: relative;
-        left: 6rem
+        left: -7.5rem
+        width: 327px;
     }
 
     footer {
@@ -529,6 +530,7 @@ footer .f__span {
         text-align: center;
         font-family: var(--red-hat-font);
         color: var(--alabaster);
+        font-size: 32px;
         position: relative;
         top: -5rem;
     }
@@ -536,6 +538,14 @@ footer .f__span {
     footer p {
         text-align: center;
         font-family: var(--red-hat-font);
+        font-size: 18px;
+        position: relative;
+        top: 1rem;
+        width: 327px;
+    }
+
+    .btn-default-footer{
+        width: 193px;
         position: relative;
         top: 4rem;
     }
