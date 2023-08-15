@@ -235,7 +235,6 @@ footer {
     background-repeat: no-repeat;
     position: relative;
     height: 300px;
-    margin-top: 10rem;
 }
 
 .footer-container {
@@ -276,7 +275,6 @@ footer {
     left: 1rem;
     top: 5rem;
     position: relative;
-    /* margin: 0 -4rem 0 -4rem; */
 }
 
 footer p {
@@ -473,7 +471,8 @@ footer .f__span {
     }
 
     .circle-2 {
-        margin: 9rem 0 -11rem 11rem;
+        top: 1rem;
+        left: -1.5rem;
         position: relative;
     }
 
