@@ -297,6 +297,7 @@ footer .f__span {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 @media (max-width: 820px) {
