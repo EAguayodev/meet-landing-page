@@ -64,22 +64,6 @@
 }
 
 /* headings color */
-h3 {
-    color: var(--hippie-blue);
-    font-family: var(--red-hat-font);
-    font-weight: 900;
-    font-size: 30px;
-    text-align: center;
-}
-
-h2 {
-    color: var(--ebony-clay);
-    font-family: var(--red-hat-font);
-    font-weight: 500;
-    font-size: 40px;
-    text-align: center;
-}
-
 .logo {
     position: relative;
     top: 70px;
@@ -175,13 +159,12 @@ h2 {
     height: 80px;
     mix-blend-mode: normal;
     opacity: 0.25;
-    top: 339px;
-    margin-top: 8rem;
+    top: 459px;
 }
 
 .circle-2 {
     position: relative;
-    margin: 8rem 0 -11rem 38rem;
+    top: 1.5rem;
     z-index: 3;
 }
 
@@ -190,15 +173,15 @@ h2 {
     content: "";
     position: absolute;
     border: 1px solid var(--manatee);
-    height: 100px;
-    top: -100px;
+    height: 84px;
+    top: -87px;
 }
 
 .row-grid {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 50px 40px;
+    margin: 0 40px;
 }
 
 .modern-container {
@@ -209,13 +192,24 @@ h2 {
 }
 
 .modern-container h2 {
+    color: var(--ebony-clay);
     font-family: var(--red-hat-font);
     font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    line-height: 44px;
 }
 
 .modern-container h3 {
+    color: var(--hippie-blue);
     font-family: var(--red-hat-font);
     font-weight: 900;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    width: 445px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .modern-container p {
@@ -223,9 +217,9 @@ h2 {
     font-family: var(--red-hat-font);
     text-align: center;
     line-height: 1.6em;
-    margin: 24px 31rem 0 20rem;
     position: relative;
-    left: 6rem;
+    left: 0rem;
+    width: 459px;
 }
 
 
@@ -270,7 +264,6 @@ footer {
     font-size: 40px;
     line-height: 44px;
     width: 350px;
-    height: 88px;
     z-index: 5;
     left: 1rem;
     top: 5rem;
@@ -284,10 +277,9 @@ footer p {
     font-style: normal;
     font-size: 18px;
     line-height: 26px;
-    margin: 6rem 4rem 0 0;
     width: 350px;
-    height: 78px;
     position: relative;
+    top: 5rem;
 }
 
 footer .f__span {
