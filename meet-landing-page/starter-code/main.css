@@ -528,7 +528,7 @@ footer .f__span {
         color: var(--alabaster);
         font-size: 32px;
         position: relative;
-        top: -5rem;
+        top: -1rem;
     }
 
     footer p {
@@ -537,6 +537,7 @@ footer .f__span {
         font-size: 18px;
         position: relative;
         top: 1rem;
+        left: 2rem;
         width: 327px;
     }
 
