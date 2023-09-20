@@ -122,8 +122,8 @@
 
 .grid-img {
     margin: auto;
-    width: 250px;
-    height: 100%;
+    width: 255px;
+    height: 242px;
     border-radius: 10px;
 }
 
@@ -387,8 +387,8 @@ footer .f__span {
 
     .grid-img {
         margin: 0 0.50rem 0 1rem;
-        width: 200px;
-        height: 100%;
+        width: 164px;
+        height: 156px;
         border-radius: 10px;
     }
 
@@ -533,6 +533,11 @@ footer .f__span {
 
     .row-grid > div {
         margin: 30px 0 0 20px;
+    }
+
+    .grid-img{
+        width: 151px;
+        height: 143px;
     }
 
     .modern-container h2{
