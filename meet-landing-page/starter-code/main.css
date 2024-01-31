@@ -442,7 +442,7 @@ footer .f__span {
 @media (max-width: 600px) {
 .logo {
     position: relative;
-    left: 6rem;
+    left: 4rem;
 }
 
 .container h1 {
