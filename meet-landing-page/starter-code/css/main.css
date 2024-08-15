@@ -462,7 +462,8 @@ footer .f__span {
 
     .hero-right {
         position: relative;
-        height: 200px;
+        width: 12.438rem;
+        height: 9.563rem;
         left: -10rem;
         top: 10rem
     }
@@ -470,16 +471,16 @@ footer .f__span {
     .hero-left {
         position: relative;
         top: 9rem;
-        height: 200px;
+        width: 12.438rem;
+        height: 9.563rem;
         left: 14.5rem;
     }
 
     .circle {
-        margin: 24rem 0 0 13rem;
+    
     }
 
     .circle-1 {
-        margin: 20rem 0 0 13.5rem;
         height: 52px;
     }
 
@@ -525,11 +526,12 @@ footer .f__span {
     .row-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 
-    .row-grid>div {
+    /* .row-grid>div {
         margin: 30px 0 0 20px;
-    }
+    } */
 
     .grid-img {
         width: 151px;
