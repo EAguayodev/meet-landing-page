@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* outline: 3px solid red; */
+    outline: 3px solid red;
 }
 
 :root {
@@ -226,7 +226,7 @@
 
 
 footer {
-    background-image: url('assets/desktop/image-footer.jpg');
+    background-image: url('../assets/desktop/image-footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -304,12 +304,16 @@ footer .f__span {
         top: 7rem;
         right: 0rem;
         left: 14rem;
+        width: 24.625rem;
+        height: 18.938rem;
     }
 
     .hero-right {
         position: relative;
         top: 8rem;
-        right: 17rem;
+        left: -17rem;
+        width: 24.625rem;
+        height: 18.938rem;
     }
 
     .container h1 {
@@ -389,7 +393,7 @@ footer .f__span {
     }
 
     footer {
-        background-image: url('assets/tablet/image-footer.jpg');
+        background-image: url('../assets/tablet/image-footer.jpg');
         background-repeat: no-repeat;
         width: 768px;
         height: 428px;
@@ -473,7 +477,7 @@ footer .f__span {
         top: 9rem;
         width: 12.438rem;
         height: 9.563rem;
-        left: 14.5rem;
+        left: 11rem;
     }
 
     .circle {
@@ -500,8 +504,8 @@ footer .f__span {
     }
 
     .circle-2 {
-        top: 1rem;
-        left: -1.5rem;
+        top: -10rem;
+        left: -13rem;
         position: relative;
     }
 
@@ -550,13 +554,13 @@ footer .f__span {
     }
 
     footer {
-        background-image: url('assets/mobile/image-footer.jpg');
+        background-image: url('../assets/mobile/image-footer.jpg');
         background-repeat: no-repeat;
-        width: 375px;
+        width: 23.438rem;
         height: 428px;
     }
 
-    footer h2 {
+    .footer-container h2 {
         text-align: center;
         font-family: var(--red-hat-font);
         color: var(--alabaster);
