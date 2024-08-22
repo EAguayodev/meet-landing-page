@@ -82,13 +82,16 @@
     left: 2rem;
 }
 
+.tablet-hero{
+    display: none;
+}
+
 
 .container h1 {
     text-align: center;
     font-family: var(--red-hat-font);
     font-weight: 900;
     font-size: 4rem;
-    margin: 0 3rem 0 1rem;
     position: relative;
     top: 5rem;
     width: 27.813rem;
@@ -299,7 +302,15 @@ footer .f__span {
 }
 
 @media (max-width: 51.25rem) {
+    .tablet-hero{
+        display: block;
+        width: 820px;
+        height: 303px;
+        position: relative;
+        top: 9rem;
+    }
     .hero-left {
+        display: none;
         position: relative;
         top: 7rem;
         right: 0rem;
@@ -309,6 +320,7 @@ footer .f__span {
     }
 
     .hero-right {
+        display: none;
         position: relative;
         top: 8rem;
         left: -17rem;
@@ -451,7 +463,7 @@ footer .f__span {
         font-size: 2.5rem;
         line-height: 44px;
         left: 2rem;
-        top: 21rem;
+        top: 14rem;
         width: 20.438rem;
     }
 
@@ -459,9 +471,14 @@ footer .f__span {
         font-size: 16px;
         text-align: center;
         position: relative;
-        top: 23rem;
+        top: 14rem;
         left: 3rem;
         width: 327px;
+    }
+
+    .tablet-hero{
+        width: 414px;
+        height: 153px;
     }
 
     .hero-right {
@@ -469,7 +486,8 @@ footer .f__span {
         width: 12.438rem;
         height: 9.563rem;
         left: -10rem;
-        top: 10rem
+        top: 10rem;
+        display: none;
     }
 
     .hero-left {
@@ -478,6 +496,7 @@ footer .f__span {
         width: 12.438rem;
         height: 9.563rem;
         left: 11rem;
+        display: none;
     }
 
     .circle {
@@ -517,14 +536,14 @@ footer .f__span {
     .btn-default-1 {
         width: 193px;
         position: relative;
-        top: 25rem;
+        top: 14rem;
         left: 7rem;
     }
 
     .btn-default-2 {
         width: 139px;
-        top: 29rem;
-        left: -3rem;
+        top: 19rem;
+        left: -4rem;
     }
 
     .row-grid {
