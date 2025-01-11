@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 3px solid red;
 }
 
 :root {
@@ -363,7 +362,7 @@ footer .f__span {
 
 
     .circle {
-        margin: 6rem 0 0 24rem;
+        margin: 6rem 0 0 0rem;
     }
 
     .circle-2 {
@@ -594,7 +593,6 @@ footer .f__span {
         font-size: 18px;
         position: relative;
         top: 1rem;
-        left: 2rem;
         width: 327px;
     }
 
